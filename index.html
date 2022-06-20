@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0">
+  <title>CJ global</title>
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css"></style>
+  <script type="text/javascript" src="script.js"></script>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.3.1/css/jquery.mb.YTPlayer.min.css">
+
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+
+  <!-- scrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js"></script>
+
+  <!-- scrollTo -->
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollToPlugin.min.js"></script>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  </script>
+</head>
+
+
+<body>
+
+  <header class="header">
+
+    <div class="header_container">
+
+      <div class="header_wrapper">
+
+        <div class="bg-blur"></div>
+
+        <section class="search">
+          <div class="searchBtn">
+            <button>
+              <span>search</span>
+            </button>
+          </div>
+
+          <div class="searchBox">
+            <button class="searchClose"></button>
+            <input type="text" autofocus placeholder="Please enter your search terms">
+          </div>
+        </section>
+
+        <section class="logo">
+          <a href="index.html">
+            <span>logo</span>
+          </a>
+        </section>
+
+        <section class="navBtn">
+          <button>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </section>
+
+        <section class="gnb">
+
+          <div class="gnb_container">
+
+            <ul>
+              <li class="gnblist">
+                <div class="menu about">
+                  <span title="next">ABOUT</span>
+                  <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa" alt="">
+                </div>
+
+                <div class="submenu aboutSub">
+                  <div class="sub_wrap">
+                    <div class="subtitle">
+                      <span title="prev">ABOUT</span>
+                      <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa&rotate=180deg" alt="">
+                    </div>
+
+                    <ul>
+                      <li><a href="#">About CJ</a></li>
+                      <li><a href="#">Business</a></li>
+                      <li><a href="#">Global Status</a></li>
+                      <li><a href="#">Press Releases</a></li>
+                      <li><a href="#">Investment information</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="gnblist">
+                <div class="menu innovation">
+                  <span title="next">INNOVATION</span>
+                  <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa" alt="">
+                </div>
+
+                <div class="submenu innoSub">
+                  <div class="sub_wrap">
+                    <div class="subtitle">
+                      <span title="prev">INNOVATION</span>
+                      <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa&rotate=180deg" alt="">
+                    </div>
+
+                    <ul>
+                      <li><a href="#">CJ Blosson Park</a></li>
+                      <li><a href="#">CJ Blossom Campus</a></li>
+                      <li><a href="#">CJ Blossom Campus Tour</a></li>
+                      <li><a href="#">Open Innovation</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="gnblist">
+                <div class="menu brandlist">
+                  <span title="next">BRANDS</span>
+                  <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa" alt="">
+                </div>
+
+                <div class="submenu brandSub">
+                  <div class="sub_wrap">
+                    <div class="subtitle">
+                      <span title="prev">BRANDS</span>
+                      <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa&rotate=180deg" alt="">
+                    </div>
+
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">bibigo</a></li>
+                      <li><a href="#">Hetbahn</a></li>
+                      <li><a href="#">Gourmet</a></li>
+                      <li><a href="#">Beksul</a></li>
+                      <li><a href="#">The Healthy</a></li>
+                      <li><a href="#">DASIDA</a></li>
+                      <li><a href="#">Haechandle</a></li>
+                      <li><a href="#">Sweetree</a></li>
+                      <li><a href="#">SPAM</a></li>
+                      <li><a href="#">Gyejeoleobo</a></li>
+                      <li><a href="#">Samho Eomuk</a></li>
+                      <li><a href="#">Hasunjung</a></li>
+                      <li><a href="#">Happy Soy</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="gnblist">
+                <div class="menu suslist">
+                  <span title="next">SUSTAINABILITY</span>
+                  <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa" alt="">
+                </div>
+
+                <div class="submenu susSub">
+                  <div class="sub_wrap">
+                    <div class="subtitle">
+                      <span title="prev">SUSTAINABILITY</span>
+                      <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa&rotate=180deg" alt="">
+                    </div>
+
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">Strategies & UN SDGs</a></li>
+                      <li><a href="#">Outcome</a></li>
+                      <li><a href="#">Code of Ethics</a></li>
+                      <li><a href="#">Social Contribution</a></li>
+                      <li><a href="#">Report Download</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="gnblist">
+                <div class="menu kfoodlist">
+                  <span title="next">K-FOOD LIFE</span>
+                  <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa" alt="">
+                </div>
+
+                <div class="submenu foodSub">
+                  <div class="sub_wrap">
+                    <div class="subtitle">
+                      <span title="prev">K-FOOD LIFE</span>
+                      <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa&rotate=180deg" alt="">
+
+                    </div>
+
+                    <ul>
+                      <li><a href="#">Overview</a></li>
+                      <li><a href="#">K-Food Story</a></li>
+                      <li><a href="#">Trend Insight</a></li>
+                      <li><a href="#">CJ the Kitchen</a></li>
+                      <li><a href="#">CJ THE MARKET</a></li>
+                      <li><a href="#">CJ SNS</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li class="gnblist">
+                <div class="menu support">
+                  <span title="next">SUPPORT</span>
+                  <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa" alt="">
+                </div>
+
+                <div class="submenu supportSub">
+                  <div class="sub_wrap">
+                    <div class="subtitle">
+                      <span title="prev">SUPPORT</span>
+                      <img src="https://api.iconify.design/ep/arrow-right.svg?color=%23aaa&rotate=180deg" alt="">
+                    </div>
+
+                    <ul>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">CJ FOODS CATALOG</a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="lang">
+              <a href="#">ENG</a>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <script>
+    const showAnim = gsap.from('header', {
+      yPercent: -200,
+      paused: true,
+      duration: 0.5
+    }).progress(1);
+
+    ScrollTrigger.create({
+      start: "top top",
+      end: 99999,
+      onUpdate: (self) => {
+        self.direction === -1 ? showAnim.play() : showAnim.reverse()
+      }
+    });
+
+    var nav = document.getElementsByClassName("header");
+
+    window.onscroll = function sticky() {
+      if (window.pageYOffset > nav[0].offsetTop) {
+        nav[0].classList.add("headerTop");
+      } else {
+        nav[0].classList.remove("headerTop");
+      }
+    }
+  </script>
+
+  <script>
+    $(document).ready(function () {
+
+      $('.searchBtn').click(function () {
+        $('.searchBox').fadeIn();
+        $('.bg-blur').fadeIn();
+        $('body').addClass('bodyfixed');
+        $('.gnb').stop().fadeOut();
+        $('header').stop().removeClass('open');
+        $('.navBtn').stop().removeClass('openNav');
+        // $('header').toggleClass('open');
+      });
+
+      $('.searchClose').click(function () {
+        $('.searchBox').fadeOut();
+        $('.bg-blur').fadeOut();
+        $('body').removeClass('bodyfixed');
+        // $('header').toggleClass('open');
+      });
+
+      $('.navBtn').click(function () {
+        $('.gnb').fadeToggle();
+        $('header').toggleClass('open');
+        $('body').toggleClass('bodyfixed');
+        $('.navBtn').toggleClass('openNav');
+
+      });
+
+      $('.menu').click(function () {
+        $(this).siblings('.submenu').addClass('subOpen');
+      });
+
+      $('.subtitle').click(function () {
+        $('.submenu').removeClass('subOpen');
+      });
+    });
+  </script>
+
+
+  <main>
+    <div class="main_container">
+      <div class="main_wrapper">
+        <div class="swiper main_swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide main_slide m1">
+              <div class="main-copy m1-copy">
+                <h1>CJ CHEILJEDANG</h1>
+                <p>Bring health, happiness and convenience to consumers around the world</p>
+                <a href="#">EXPLORE NOW</a>
+              </div>
+            </div>
+
+            <div class="swiper-slide main_slide m2">
+              <div class="main-copy m2-copy">
+                <h1>CJ THE MARKET</h1>
+                <p>A space where you can experience the joy of kitchen life with various recipes and cooking classes</p>
+                <a href="#">VISIT NOW</a>
+              </div>
+            </div>
+
+            <div class="swiper-slide main_slide m3">
+              <div class="main-copy m3-copy">
+                <h1>CJ COOKIT</h1>
+                <p>
+                  1H 2019 HMR new product release trend.
+                  <br class="laptopOnly">Let’s look back on the characteristics of HMR products released in Korea in 1H
+                  2019.</p>
+                <a href="#">VISIT NOW</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="down">
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <script>
+    var mainswiper = new Swiper(".main_swiper", {
+      slidesPerView: '1',
+      speed: 1000,
+      loop: true,
+
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+    });
+  </script>
+
+
+  <article class="product">
+    <div class="product_container">
+      <div class="product_wrapper">
+        <div class="product_img">
+          <div class="product-bg gs_reveal gs_reveal_fromLeft"></div>
+          <img src="https://www.cj.co.kr/resources/img/visual/brands_submain.jpg" alt="">
+        </div>
+
+        <div class="product-copy">
+          <h2>Our Products</h2>
+          <p>25 food culture brands that are unrivaled in Korea <br>
+            We create food brands ready to be embraced by the world. <br>
+            We aim to provide delicious and healthy foods for people in every country.</p>
+          <button>EXPLORE ALL</button>
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+  <article class="impacts">
+
+    <div class="impacts_container">
+
+      <div class="impacts_wrapper">
+        <div class="impacts_img">
+          <div class="impacts-bg gs_reveal gs_reveal_fromRight"></div>
+          <img src="https://m.cj.co.kr/resources/img/about/aboutus_04.png" alt="">
+        </div>
+
+        <div class="impacts-copy">
+          <h2>Our Impacts</h2>
+          <p>
+            To achieve the 17 goals set by the UN SDGs, <br> we carry out relevant businesses and projects that are
+            based on
+            the core SDG strategies across our value chain.
+          </p>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+
+  </article>
+
+
+  <article class="global">
+
+    <div class="global_container">
+      <div class="global_wrapper">
+        <div class="global-copy">
+          <h2>Global Status</h2>
+          <p>
+            To achieve the 17 goals set by the UN SDGs, <br> we carry out relevant businesses and projects <br> that are
+            based on
+            the core SDG strategies across our value chain.
+          </p>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+
+  </article>
+
+
+  <article class="brands">
+
+    <div class="brands_container">
+      <div class="brands_wrapper">
+        <div class="brands-copy">
+          <h2>Our brands</h2>
+          <p>We create food brands ready to be embraced by the world. <br>
+            We aim to provide delicious and healthy foods for people in every country.</p>
+          <button>FIND OUT MORE</button>
+        </div>
+
+        <section class="tab-wrapper">
+
+          <div class="swiper tabSwiper">
+            <ul class="tab-menu swiper-wrapper">
+              <li class="swiper-slide">Home Meal <br> Replacement</li>
+              <li class="swiper-slide">Cooking <br> Ingredients</li>
+              <li class="swiper-slide">Health <br> Functional Food</li>
+              <li class="swiper-slide">Snack· <br> Dessert · Drinks</li>
+              <li class="swiper-slide">Share Growth <br> · Pet Food</li>
+            </ul>
+            <div class="swiper-scrollbar"></div>
+          </div>
+
+          <script>
+            var swiper = new Swiper(".tabSwiper", {
+              slidesPerView: 2.5,
+              spaceBetween: 10,
+              scrollbar: {
+                el: ".swiper-scrollbar",
+                hide: true,
+              },
+            });
+          </script>
+
+          <section class="tab-content">
+
+            <div class="swiper tabContentSwiper">
+              <div class="swiper-wrapper">
+
+                <div class="home swiper-slide">
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_01.png" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_02.png" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_03.png" alt="">
+                  </a>
+                </div>
+
+
+                <div class="cooking-con swiper-slide">
+
+                  <div class="cooking">
+                    <a href="#">
+                      <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_06.png" alt="">
+                    </a>
+
+                    <a href="#">
+                      <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_10.png" alt="">
+                    </a>
+
+                    <a href="#">
+                      <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_08.png" alt="">
+                    </a>
+
+                    <a href="#">
+                      <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_09.png" alt="">
+                    </a>
+
+                    <a href="#">
+                      <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_07.png" alt="">
+                    </a>
+
+                    <a href="#">
+                      <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_11.png" alt="">
+                    </a>
+
+
+                    <div class="more_container">
+                      <div class="more">
+                        <a href="#">
+                          <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_12.png" alt="">
+                        </a>
+
+                        <a href="#">
+                          <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_13.png" alt="">
+                        </a>
+
+                        <a href="#">
+                          <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_14.png" alt="">
+                        </a>
+
+                        <a href="#">
+                          <img src="	https://m.cj.co.kr/resources/img/brand/brands_logo_15.png" alt="">
+                        </a>
+
+                        <a href="#">
+                          <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_16.png" alt="">
+                        </a>
+
+                        <a href="#">
+                          <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_17.png" alt="">
+                        </a>
+
+                        <a href="#">
+                          <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_18.png" alt="">
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="plusCook">
+                    <button>
+                      <span>VIEW MORE</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="health swiper-slide">
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_19.png" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_20.png" alt="">
+                  </a>
+                </div>
+
+                <div class="snack swiper-slide">
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_21.png
+" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_22.png
+" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_23.png" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_24.png" alt="">
+                  </a>
+                </div>
+
+                <div class="pet swiper-slide">
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_25.png" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_26.png" alt="">
+                  </a>
+
+                  <a href="#">
+                    <img src="https://m.cj.co.kr/resources/img/brand/brands_logo_27.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </section>
+
+      </div>
+    </div>
+
+  </article>
+
+
+  <script>
+    $('.plusCook').click(function () {
+      $('.more_container').fadeToggle();
+      $('.cooking-con').toggleClass('wide');
+    });
+
+    var tab = new Swiper('.tabContentSwiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      autoHeight: true,
+
+      thumbs: {
+        swiper: {
+          el: '.tabSwiper',
+          slidesPerView: 3.5,
+        }
+      },
+    });
+  </script>
+
+
+  <article class="aboutCj">
+
+    <div class="cj_container">
+
+      <div class="cj_wrapper">
+
+        <section class="about_head">
+          <div class="about_img">
+            <div class="about-bg gs_reveal gs_reveal_fromLeft"></div>
+            <img src="https://m.cj.co.kr/resources/img/about/aboutus_01.png" alt="">
+          </div>
+        </section>
+
+        <section class="about-content">
+          <div class="about-copy">
+            <h2>About CJ</h2>
+            <p>
+              CJ CheilJedang is taking a leap forward <br> as a global food and bio company through endless challenge
+              and
+              innovation.
+            </p>
+            <button>LEARN ABOUT US</button>
+          </div>
+
+          <div class="about_inner">
+            <a href="#">
+              <div>
+                <img src="https://m.cj.co.kr/resources/img/innovation/en_gate_food.jpg" alt="">
+              </div>
+              <p>INNOVATION</p>
+            </a>
+
+            <a href="#">
+              <div>
+                <img src="https://m.cj.co.kr/resources/img/about/overview_obj_5.jpg" alt="">
+              </div>
+              <p>SUSTAINABILITY</p>
+            </a>
+          </div>
+
+        </section>
+
+      </div>
+
+    </div>
+
+  </article>
+
+
+  <article class="kfoodLife">
+    <div class="life_container">
+      <div class="life_wrapper">
+        <section class="life_head">
+          <div class="life_img">
+            <img src="https://www.cj.co.kr/cj_files/kfood/trend/201906/1561507263618_0.jpg" alt="">
+          </div>
+
+          <div class="life-copy">
+            <div class="life-bg"></div>
+            <div class="life-hcopy">
+              <span>K-FOOD INSIGHT</span>
+              <h2>K-food life</h2>
+            </div>
+          </div>
+        </section>
+
+        <section class="foodnews">
+          <a href="#" class="gs_reveal">
+            <div class="food-img">
+              <img src="https://m.cj.co.kr/cj_files/kfood/visual/201910/1571114494176_0.jpg" alt="">
+            </div>
+
+            <div class="food-copy">
+              <span>TREND INSIGHT</span>
+              <p>
+                1H 2019 HMR new product release trend.
+                <br>Let’s look back on the characteristics of HMR products released in Korea in 1H 2019.</p>
+            </div>
+          </a>
+
+          <a href="#" class="gs_reveal">
+            <div class="food-img">
+              <img src="https://m.cj.co.kr/resources/img/kfoodlife/kitchen_introduce_01.jpg" alt="">
+            </div>
+
+            <div class="food-copy">
+              <span>CJ THE KITCHEN</span>
+              <p>From introducing the joy of various dishes to sharing a delectable sense of happiness, and from
+                publicizing the taste of Korea around the world to introducing the flavors of the world to Korea. We are
+                forming a new culture of flavor. CJ THE KITCHEN</p>
+            </div>
+          </a>
+
+          <a href="#" class="gs_reveal">
+            <div class="food-img">
+              <img src="https://m.cj.co.kr/resources/img/kfoodlife/olivemarket_02.jpg" alt="">
+            </div>
+
+            <div class="food-copy">
+              <span>CJ THE MARKET</span>
+              <p>THE MARKET Flagship Store is a total Home Meal Solution platform and Korea’s first ‘HMR Flagship Store’
+                where visitors can enjoy the CJ CheilJedang Home Meal Replacement brand while shopping or even just
+                sightseeing.</p>
+            </div>
+          </a>
+
+          <a href="#" class="gs_reveal">
+            <div class="food-img">
+              <img src="https://m.cj.co.kr/cj_files/kfood/visual/201909/1567668278282_0.jpg" alt="">
+            </div>
+
+            <div class="food-copy">
+              <span>MOMENT STORY</span>
+              <p>
+                Chuseok is a traditional Korean holiday to celebrate the year's bountiful harvest by sharing delicious
+                food with family and loved ones. The holiday is filled with all kinds of special dishes that are usually
+                hard to eat. </p>
+            </div>
+          </a>
+
+          <a href="#" class="gs_reveal">
+            <div class="food-img">
+              <img src="https://m.cj.co.kr/cj_files/kfood/behind/201910/1571275070285_0.jpg" alt="">
+            </div>
+
+            <div class="food-copy">
+              <span>BEGIND STORY</span>
+              <p>Spaces created by a company represent the direction and value of the company
+                Spaces containing the brand's philosophy move the hearts of customers.</p>
+            </div>
+          </a>
+        </section>
+
+        <div class="plusnews">
+          <button><span>VIEW MORE NEWS</span></button>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+
+
+  <footer>
+
+    <div class="footer_container">
+      <div class="footer_wrapper">
+        
+        <section class="footer_info">
+          <div class="social">
+            <div class="social_icon">
+              <a href="#"></a>
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="fam">
+            <!-- <span>Family Site</span> -->
+
+            <div class="select_box">
+              <select name="fam" id="fam">
+                <option value="0">Family Site</option>
+                <optgroup label="CJ Group">
+                  <option value="1">CJ Group</option>
+                </optgroup>
+
+                <optgroup label="Food & Food Service">
+                  <option value="2">CJ CheilJedang</option>
+                  <option value="">CJ Foodville</option>
+                  <option value="">CJ Freshway</option>
+                </optgroup>
+
+                <optgroup label="BIO">
+                  <option value="">CJ BIO</option>
+                  <option value="">CJ Feed & Care</option>
+                </optgroup>
+
+                <optgroup label="Logistics & Retail">
+                  <option value="">CJ Logistics</option>
+                  <option value="">CJ Logistics (E&C)</option>
+                  <option value="">CJ OliveYoung</option>
+                  <option value="">CJ OliveNetworks</option>
+                  <option value="">CJ ENM (COMMERCE)</option>
+                </optgroup>
+              </select>
+
+              <button>GO</button>
+            </div>
+          </div>
+
+          <div class="legal">
+            <ul>
+              <li><a href="#">sustainability Management</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Sitemap</a></li>
+              <li><a href="#">Hotline</a></li>
+            </ul>
+          </div>
+
+          <div class="address">
+            <span class="name">CJ CheilJedang Corp.</span>
+            <p role="text">
+              <span class="nowrap">CJ CheilJedang Center.</span>
+              <span class="nowrap">330, Dongho-ro, Jung-Gu,</span>
+              <span class="nowrap">Seoul, Korea.</span>
+              <span class="pipe"><em>|</em></span>
+              <span class="nowrap">Tel : +82-2-6740-1114</span>
+            </p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    function animateFrom(elem, direction) {
+      direction = direction || 1;
+      var x = 0,
+        y = direction * 100;
+      if (elem.classList.contains("gs_reveal_fromLeft")) {
+        x = -100;
+        y = 0;
+      } else if (elem.classList.contains("gs_reveal_fromRight")) {
+        x = 100;
+        y = 0;
+      }
+      elem.style.transform = "translate(" + x + "px, " + y + "px)";
+      elem.style.opacity = "0";
+      gsap.fromTo(elem, {
+        x: x,
+        y: y,
+        autoAlpha: 0
+      }, {
+        duration: 1.25,
+        x: 0,
+        y: 0,
+        autoAlpha: 1,
+        ease: "expo",
+        overwrite: "auto"
+      });
+    }
+
+    function hide(elem) {
+      gsap.set(elem, {
+        autoAlpha: 0
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.utils.toArray(".gs_reveal").forEach(function (elem) {
+        hide(elem); // assure that the element is hidden when scrolled into view
+
+        ScrollTrigger.create({
+          trigger: elem,
+          onEnter: function () {
+            animateFrom(elem)
+          },
+          onEnterBack: function () {
+            animateFrom(elem, -1)
+          },
+          onLeave: function () {
+            hide(elem)
+          } // assure that the element is hidden when scrolled into view
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
